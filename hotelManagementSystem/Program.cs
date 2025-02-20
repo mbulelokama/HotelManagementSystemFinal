@@ -5,6 +5,10 @@ using Microsoft.EntityFrameworkCore.Design;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+             .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true)
+             .AddEnvironmentVariables();
+
 // Add services to the container.
 builder.Services.AddDbContext<HotelBookingContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("HotelBookingConnection")));
