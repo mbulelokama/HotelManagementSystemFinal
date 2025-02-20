@@ -4,7 +4,7 @@ This project is a simple hotel management system
 
 ## Table of Contents (Optional, but helpful for larger READMEs)
 
-*   Clone the repository : git clone [https://github.com/YOUR_USERNAME/hotel-management-system.git](https://www.google.com/search?q=https://github.com/YOUR_USERNAME/hotel-management-system.git)
+*   Clone the repository : git clone https://github.com/mbulelokama/HotelManagement.git
 *   Navigate to the project directory: cd hotel-management-system
 *   dotnet restore : dotnet restore
 *   Build the project: dotnet build
