@@ -1,4 +1,4 @@
-@hotelManagementSystem_HostAddress = http://localhost:5057
+@hotelManagementSystem_HostAddress = http://localhost
 
 GET {{hotelManagementSystem_HostAddress}}/hotelManagementSystem/
 Accept: application/json
